@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/test-database
+
+
+server:
+  port: 11153
+  servlet:
+    context-path: "/spring_cloud/mongodb"
+
+logging:
+  config: classpath:logback.xml #logback 日志继承, springboot默认是 slf4j+logback, 不需要引入依赖只需要 xml 配置文件即可
