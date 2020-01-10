@@ -3,6 +3,7 @@ mongodb   database    table         row         column    index   支持
 mysql     database    collection    document    field     index   不支持    自动将_id字段设置成主键
 
 1. mongodb 中同一个集合可以插入不同类型的数据, 而关系型数据库表格中数据是固定的
+2. mongodb 插入时没有集合结构, 会自动创建新的集合
 
 
 springBoot+DB的常用注解:
